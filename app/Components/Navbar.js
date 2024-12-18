@@ -5,7 +5,7 @@ function Navbar() {
 
 
   return (
-    <div className="flex flex-col min-h-[90vh] w-24 justify-between items-center bg-white px-4 py-10 rounded-2xl ml-10 ">
+    <div className="flex flex-col min-h-[90vh] w-[100px] justify-between items-center bg-white px-4 py-7 rounded-3xl ml-5 ">
       {/* Logo Section */}
       <div>
         <Image
@@ -82,6 +82,7 @@ function Navbar() {
           src={support}
           width={55}
           height={55}
+          className=" pb-16"
           alt="Support"
         />
       </div>
