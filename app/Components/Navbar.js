@@ -1,51 +1,8 @@
 import Image from "next/image";
+import support from '@/images/I want to support.png'
 
 function Navbar() {
-  // Array to store image data
-  const navItems = [
-    {
-      src: "https://duaruqyah.com/assets/nav/home.svg",
-      alt: "Home",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/alldua.svg",
-      alt: "About",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/memorize.svg",
-      alt: "Services",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/bookmark.svg",
-      alt: "Contact",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/ruqyah.svg",
-      alt: "FAQ",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/dua-info.svg",
-      alt: "FAQ",
-      width: 35,
-      height: 35,
-    },
-    {
-      src: "https://duaruqyah.com/assets/nav/books.svg",
-      alt: "BOOKS",
-      width: 35,
-      height: 35,
-    },
-  ];
+
 
   return (
     <div className="flex flex-col min-h-[90vh] w-24 justify-between items-center bg-white px-4 py-10 rounded-2xl ml-10 ">
@@ -122,10 +79,10 @@ function Navbar() {
       {/* Footer Logo Section */}
       <div>
         <Image
-          src="https://duaruqyah.com/assets/dua-logo.svg"
-          width={50}
-          height={50}
-          alt="Dua Ruqyah Logo"
+          src={support}
+          width={55}
+          height={55}
+          alt="Support"
         />
       </div>
     </div>
