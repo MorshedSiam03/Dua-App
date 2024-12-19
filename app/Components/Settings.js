@@ -8,8 +8,8 @@ function Settings() {
 
       {/* Tabs */}
       <div> 
-        <div className=" border  rounded-lg mb-4">
-          <div className="border-l-4 border-green-500 bg-[#f7f8fa] rounded-r-lg h-12 py-1 pl-2 mb-4">
+        <div className="border rounded-lg mb-4">
+          <div className="border-l-4 border-green-500 bg-[#f7f8fa] rounded-t-lg h-12 py-1 pl-2 mb-4">
             <h3 className="text-green-600 text-sm font-semibold flex items-center">
               <span className="mr-2  bg-[#e8f0f5] p-2 rounded-full">
                 <svg
