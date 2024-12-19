@@ -17,23 +17,66 @@ function DuaCard() {
       reference: "Sahih (Albani). Silsila Sahihah: 1413",
     },
     {
-      number: 36,
-      title: "Time when duas are accepted #2",
+      number: 37,
+      title: "Time when duas are accepted #3",
       content:
-        "Anas (RA) said, the Prophet (ﷺ) said, when the call to prayer (adhan) is given, the gates of heaven are opened and the dua is accepted.",
-      reference: "Sahih (Albani). Silsila Sahihah: 1413",
+        "The Prophet (ﷺ) said: 'Dua is accepted during the last third of the night when Allah descends to the lowest heaven and asks: Who is calling upon Me, so I may answer him? Who is asking from Me, so I may give him?'",
+      reference: "Sahih al-Bukhari: 1145, Sahih Muslim: 758",
     },
     {
-      number: 36,
-      title: "Time when duas are accepted #2",
+      number: 38,
+      title: "Time when duas are accepted #4",
       content:
-        "Anas (RA) said, the Prophet (ﷺ) said, when the call to prayer (adhan) is given, the gates of heaven are opened and the dua is accepted.",
-      reference: "Sahih (Albani). Silsila Sahihah: 1413",
+        "Narrated by Abu Hurairah (RA): The Messenger of Allah (ﷺ) said: 'Dua made between the adhan and the iqamah is not rejected.'",
+      reference: "Sunan Abi Dawud: 521, Jami` at-Tirmidhi: 212",
+    },
+    {
+      number: 39,
+      title: "Time when duas are accepted #5",
+      content:
+        "The Prophet (ﷺ) said: 'There is an hour on Friday during which no Muslim stands and prays and asks Allah for something, but He will give it to him.'",
+      reference: "Sahih al-Bukhari: 935, Sahih Muslim: 852",
+    },
+    {
+      number: 40,
+      title: "Time when duas are accepted #6",
+      content:
+        "Narrated by Jabir ibn Abdullah (RA): The Prophet (ﷺ) said: 'Dua during rain is not rejected.'",
+      reference: "Sunan Ibn Majah: 3858, Sahih al-Jami': 3078",
+    },
+    {
+      number: 41,
+      title: "Time when duas are accepted #7",
+      content:
+        "The Messenger of Allah (ﷺ) said: 'The dua of a fasting person is accepted at the time of breaking the fast.'",
+      reference: "Sunan Ibn Majah: 1753, Sahih (Albani)",
+    },
+    {
+      number: 42,
+      title: "Time when duas are accepted #8",
+      content:
+        "Narrated by Abu Hurairah (RA): The Prophet (ﷺ) said: 'The dua of a parent for their child, the dua of a fasting person, and the dua of the oppressed are not rejected.'",
+      reference: "Sunan Ibn Majah: 3862, Sahih (Albani)",
+    },
+    {
+      number: 43,
+      title: "Time when duas are accepted #9",
+      content:
+        "The Prophet (ﷺ) said: 'The dua of the one who is in distress (al-madhloom) is accepted, even if he is a disbeliever.'",
+      reference: "Musnad Ahmad: 12140, Sahih (Albani)",
+    },
+    {
+      number: 44,
+      title: "Time when duas are accepted #10",
+      content:
+        "Narrated by Abu Hurairah (RA): The Prophet (ﷺ) said: 'When you hear the rooster crow, ask Allah for His bounty, for it has seen an angel.'",
+      reference: "Sahih al-Bukhari: 3303, Sahih Muslim: 2729",
     },
   ];
+  
   return (
     <div className="w-full mt-5 ml-5  max-h-[83vh] overflow-y-auto">
-      <div className="overflow-y-auto">
+      <div className="">
         <div className="">
           <div className="mb-4 p-6 text-black border bg-white rounded-lg text-[15px] font-medium">
             <span className=" text-[#1fa45b] ">Section: </span> Times and places when dua will be accepted

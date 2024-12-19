@@ -3,7 +3,7 @@ import Image from "next/image";
 function Header() {
   return (
     <div>
-      <div className="flex ml-8 mt-1 items-center justify-between">
+      <div className="flex ml-8 mt-1 mr-5 items-center justify-between">
         <div className="flex-1">
           <a className="text-2xl text-black">Duas Page</a>
         </div>
@@ -12,11 +12,11 @@ function Header() {
             <input
               type="text"
               placeholder="Search by Dua Name"
-              className="w-[360px] py-[14px] pl-5 text-md rounded-md text-sm outline-green-600"
+              className="w-[360px] py-[14px] text-black pl-5 text-md rounded-md text-sm outline-green-600"
             />
             <button
               type="button"
-              className="absolute right-0.5 top-1/2 transform p-[12px] px-5 rounded-md bg-[#f3f4f6] -translate-y-1/2 text-gray-500"
+              className="absolute right-0.5 top-1/2 transform p-[12px] px-5 rounded-md bg-[#f3f4f6] -translate-y-1/2 text-gray-500 "
             >
               <svg
                 width="20"
