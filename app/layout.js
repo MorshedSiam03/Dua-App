@@ -25,7 +25,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased bg-[#EBEEF2] px-5`} style={{ fontFamily: "var(--font-inter), sans-serif" }}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased bg-[#EBEEF2] px-5`}
+        style={{ fontFamily: "var(--font-inter), sans-serif" }}
       >
         {children}
       </body>

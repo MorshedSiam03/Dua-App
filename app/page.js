@@ -11,18 +11,18 @@ export default function Home() {
     <>
       <div className="flex py-10">
         <div>
-        <Navbar />
+          <Navbar />
         </div>
         <div className=" w-full">
-            <Header/>
-            <div className="flex">
-              <Categories/>
-              <DuaCard/>
-            </div>
+          <Header />
+          <div className="flex">
+            <Categories />
+            <DuaCard />
+          </div>
         </div>
         <div className="w-[450px]">
-          <Profile/>
-          <Settings/>
+          <Profile />
+          <Settings />
         </div>
       </div>
     </>
